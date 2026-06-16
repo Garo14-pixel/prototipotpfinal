@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pen</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="grid-container">
+    <!-- El título ocupará la primera columna completa (fila 1 y fila 2) -->
+    <h1 class="grid-title">Los Lápices<br>Siguen Escribiendo</h1>
+  
+    <!-- Foto 1 -->
+    <div class="foto-card">
+      <a href="https://basededatos.parquedelamemoria.org.ar/registros/3250/" target="_blank">
+        <img src="ClaudiodeAcha.jpg" alt="Claudio de Acha">
+      </a>
+    </div>
+
+    <!-- Foto 2 -->
+    <div class="foto-card">
+      <a href="pagina-destino-2.html">
+        <img src="Foto2.jpg" alt="Persona 2">
+      </a>
+    </div>
+
+    <!-- Foto 3 -->
+    <div class="foto-card">
+      <a href="pagina-destino-3.html">
+        <img src="Foto3.jpg" alt="Persona 3">
+      </a>
+    </div>
+
+    <!-- Foto 4 -->
+    <div class="foto-card">
+      <a href="pagina-destino-4.html">
+        <img src="Foto4.jpg" alt="Persona 4">
+      </a>
+    </div>
+
+    <!-- Foto 5 -->
+    <div class="foto-card">
+      <a href="pagina-destino-5.html">
+        <img src="Foto5.jpg" alt="Persona 5">
+      </a>
+    </div>
+
+  </div> <!-- Cierre correcto de .grid-container -->
+
+  <script src="./script.js"></script>
+</body>
+</html>
